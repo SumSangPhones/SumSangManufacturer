@@ -214,7 +214,6 @@ jobs:
         with:
           secret-ids: |
             EC2_PRIVATE_KEY, privatekey
-            DB_HOST, dbhost
             POSTGRES_USER, postgresuser
             POSTGRES_PASS, postgrespass
 
