@@ -234,6 +234,7 @@ jobs:
                 echo "Exporting environment variables"
                 echo "DB_USER=${{ env.POSTGRES_USER }}" | sudo tee -a /etc/environment
                 echo "DB_PASSWORD=${{ env.POSTGRES_PASS }}" | sudo tee -a /etc/environment
+              '
       
       - name: Deploy
         run: |
